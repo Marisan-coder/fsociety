@@ -1,4 +1,4 @@
-"use client";"use client";
+"use client";
 
 import React, { useState } from 'react';
 
@@ -32,27 +32,7 @@ export default function HomePage() {
     <div className="min-h-screen bg-[#0A0A0A] text-white font-sans antialiased selection:bg-white selection:text-black">
       
       {/* 1. COMPOSANT : NAVIGATION NAVIGATION HEADER */}
-      <header className="sticky top-0 z-50 backdrop-blur-md bg-[#0A0A0A]/70 border-b border-white/5 transition-all duration-300">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-          <div className="font-serif text-xl tracking-[0.2em] font-bold">
-            F SOCIETY
-          </div>
-          <nav className="hidden md:flex space-x-8 text-xs uppercase tracking-widest text-neutral-400">
-            <a href="#explore" className="hover:text-white transition-colors">Explorer</a>
-            <a href="#communities" className="hover:text-white transition-colors">Communautés</a>
-            <a href="#opportunities" className="hover:text-white transition-colors">Opportunités</a>
-            <span className="text-neutral-700">|</span>
-            <span className="text-neutral-500 cursor-not-allowed group relative">
-              Marketplace <span className="text-[9px] text-neutral-600 lowercase absolute -top-2 left-0 font-sans tracking-normal">(bientôt)</span>
-            </span>
-          </nav>
-          <div>
-            <button className="border border-white/20 bg-white text-black hover:bg-transparent hover:text-white px-5 py-2 text-xs uppercase tracking-widest font-medium transition-all duration-300">
-              Rejoindre
-            </button>
-          </div>
-        </div>
-      </header>
+      
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24 md:space-y-40 py-12">
         
