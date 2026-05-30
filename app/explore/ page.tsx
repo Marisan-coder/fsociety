@@ -1,5 +1,7 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
+
  
 const PROJECTS = [
  { id: 1, title: "L'Éloge de l'Ombre", author: "Marie S.",
@@ -35,7 +37,12 @@ export default function ExplorePage() {
            La curation des nouveaux talents de la mode
          </p>
        </header>
- 
+ <Link
+  href="/explore/resources"
+  className="inline-block mb-8 bg-white text-black px-5 py-3 text-[11px] uppercase tracking-widest hover:bg-neutral-200"
+>
+  Voir les ressources →
+</Link>
        <div className="flex flex-wrap gap-2">
          {CATS.map((cat) => (
            <button key={cat} onClick={() => setFilter(cat)}

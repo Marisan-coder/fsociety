@@ -7,6 +7,8 @@ const links = [
  { href: "/communities",   label: "Communautés" },
  { href: "/opportunities", label: "Opportunités" },
  { href: "/marketplace",   label: "Marketplace" },
+ { href: "/radar", label: "Radar" },
+ { href: "/resources", label: "Ressources" },
 ];
 
 export default function Navbar() {
